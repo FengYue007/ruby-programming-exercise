@@ -1,15 +1,13 @@
 # 输入一个数字 N，请检查是不是质数
 
 def is_prime(num)
-  i = 2
-  while i <= n/2
+  for i in 2..n/2
     if n % i == 0
-      break
+      false
     else
-      i += 1
+      ture
     end
   end
-  i == n.to_i/2 + 1
 end
 
 
